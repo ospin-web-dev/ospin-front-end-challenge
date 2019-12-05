@@ -1,0 +1,296 @@
+/*GLOBAL*/
+body {
+  background-color: #f5f5f5;
+}
+/*Container*/
+.main-content {
+  /*min-width: 200px;*/
+  padding-top: 20px;
+  padding-left: 220px !important;
+  padding-right: 40px;
+}
+
+.status-green {
+  color: #27AE60;
+  font-weight: bold;
+}
+
+.status-blue {
+  color: #337AB7;
+  font-weight: bold;
+}
+
+.status-orange {
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+.max-h-600{
+  max-height: 600px !important;
+}
+
+.max-w-48 {
+  max-width: 48px !important
+}
+
+.max-width-498 {
+  max-width: 498px !important;
+}
+
+.max-width-528 {
+  max-width: 528px !important;
+}
+
+.width-fit-content {
+  width: fit-content !important;
+}
+
+.space-between-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-abs-2d {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll {
+  overflow: auto !important;
+}
+
+/*Sidebar*/
+
+.ui.sidebar.content-header{
+  margin-left: 180px !important;
+  min-height: 72px !important;
+  padding-left: 30px;
+  padding-right: 190px;
+  padding-top: 24px !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+.ui.sidebar.medium {
+  width: 180px !important;
+}
+.ui.sidebar.with-margin-r {
+  margin-right: 180px !important;
+}
+
+.ui.column.fixed-width {
+  width: 180px !important;
+}
+
+.column.margin-top {
+  margin-top: 17vh;
+}
+
+.row.graph-boundary {
+  min-height: 300px !important;
+}
+
+.ui.ospin-red.table {
+  border-top: .2em solid #900E2C;
+}
+
+.ui.header.content-header-title {
+  color: #242424 !important;
+}
+
+.ui.container {
+  display: flex;
+  justify-content: center;
+}
+
+.ui.segment {
+  width: fit-content;
+}
+
+.ui.segment.no-padding-right {
+  padding-right: 4px !important;
+}
+
+.ui.dropdown.float-right{
+  float: right !important;
+}
+
+.transition-opacity{
+  transition: opacity 0.3s ease-out !important;
+}
+
+.opacity-0 {
+ opacity: 0
+}
+
+.process-link {
+  cursor: pointer;
+  color: #1678C2;
+}
+
+.process-tile-header {
+  font-size: 16px !important;
+}
+
+.add-process-tile {
+  padding-top: 32px !important;
+  background-color: #EFFAFF !important;
+}
+
+.padding-t-16 {
+  padding-top: 16px !important;
+}
+
+.margin-b-16 {
+  margin-bottom: 16px !important;
+}
+
+.margin-l-16 {
+  margin-left: 16px !important;
+}
+
+.margin-l-4 {
+  margin-left: 4px !important;
+}
+
+.margin-t-8 {
+  margin-top: 8px !important;
+}
+
+.margin-r-16 {
+  margin-right: 16px !important;
+}
+
+.margin-rl-10 {
+  margin: 0px 16px !important;
+}
+
+
+.canvasjs-chart-container{
+  width: 100% !important;
+  /*height: 400px;*/
+}
+
+.font-size-18{
+  font-size: 18px !important;
+}
+
+.font-size-12{
+  font-size: 12px !important;
+}
+
+/*.canvasjs-chart-canvas{*/
+/*width: 500px !important;*/
+/*}*/
+
+.graph {
+  width: 100% !important;
+}
+
+.graph-placeholder{
+  height: 300px;
+}
+
+.description.max-width {
+  max-width: 100% !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.link-style {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px ;
+  position: relative;
+  color: #0E6EB8;
+}
+
+.break-word {
+  overflow-wrap: break-word
+}
+
+.inline-link {
+  color:	#0645AD;
+  cursor: pointer;
+}
+
+.centered-h {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hidden-element {
+  display: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.phase-name {
+  padding-top: 18px !important;
+  margin-bottom: -24px !important;
+}
+
+.offset-icon-1 {
+  top: 10px !important;
+  position: absolute;
+  left: 110px;
+}
+
+.ospin-red-hoverable {
+  background-color: #900E2C!important;
+  color: #EEE!important;
+}
+
+.ospin-red-hoverable:hover {
+  background-color: #A71033!important;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.center-vertical {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.position-relative {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#device-widget-status-text {
+  margin-left: 0px !important;
+}
+
+.dashboard-value {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.dashboard-unit {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.toggle-text {
+  color: #337ab7;
+  cursor: pointer;
+}
+

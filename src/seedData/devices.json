@@ -1,0 +1,40 @@
+{
+  "seedDevices": [
+    {
+      "id": ":)",
+      "name": "Stem Cell Incubator",
+      "connectionState": "online",
+      "state": "running",
+      "type": "Bio Reactor"
+    },
+    {
+      "id": ">:o",
+      "name": "Elon Musk's Organ Replacement Creator",
+      "connectionState": "online",
+      "state": "idle",
+      "type": "TeslaSpaceXBoring Reactor"
+    },
+    {
+      "id": ":(",
+      "name": "Kidney Killer",
+      "connectionState": "online",
+      "state": "paused",
+      "type": "Bio Reactor"
+    },
+    {
+      "id": ":/",
+      "name": "Meat Factory",
+      "connectionState": "online",
+      "state": "running",
+      "type": "MEGA Bio Reactor"
+    },
+    {
+      "id": ":O",
+      "name": "Heartbeat Simulator",
+      "connectionState": "offline",
+      "state": "idle",
+      "type": "Third Party Device"
+    }
+  ]
+}
+
