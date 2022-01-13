@@ -1,7 +1,7 @@
 module.exports = {
   "extends": ["airbnb", "airbnb/hooks", "plugin:jest-formatting/recommended"],
   "env": { "jest": true },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "rules": {
     "array-bracket-spacing": "off",
     "arrow-parens": ["warn", "as-needed"],

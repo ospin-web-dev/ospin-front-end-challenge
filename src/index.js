@@ -7,6 +7,6 @@ import './styles/device-spinner.css'
 import App from './App'
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('app')
+  <App />, // eslint-disable-line
+  global.window.document.getElementById('app'),
 )

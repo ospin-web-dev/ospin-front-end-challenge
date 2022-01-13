@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, Menu, Input } from 'semantic-ui-react'
 import { withRouter } from 'react-router-dom'
 
-import { seedDevices } from 'seedData/devices.json'
+import seedData from 'seedData/devices.json'
 import DeviceList from './DeviceList'
 
 const Devices = () => (
@@ -21,7 +21,7 @@ const Devices = () => (
     </Grid.Row>
 
     <Grid.Row>
-      <DeviceList devices={seedDevices} />
+      <DeviceList devices={seedData.seedDevices} />
     </Grid.Row>
 
   </Grid>

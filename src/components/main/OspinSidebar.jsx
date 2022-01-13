@@ -4,7 +4,6 @@ import { withRouter } from 'react-router-dom'
 
 import logoIcon from 'images/logoIcon.png'
 
-
 class OspinSidebar extends React.Component {
 
   getCurrentTabFromUrl() {
