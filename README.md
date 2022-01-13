@@ -25,22 +25,27 @@ We would like to provide our users with an experience similar to these pages:
 
 ---
 ## Getting Started
-- Please clone the repository - **do not fork!** This is to ensure your submission stays private. If you will be hosting the repo on Github or Gitlab (not mandatory, see FAQ), please rename the repository.
-- Please run `npm i && npm test` followed by `npm start` to make sure everything is working as expected!
+- clone the repository - **do not fork!** This is to ensure your submission stays private. If you will be hosting the repo on Github or Gitlab (not mandatory, see FAQ), please rename the repository.
+- make sure you are using a node version that is compatible with what is defined in the `package.json`
+- run `npm i && npm test` followed by `npm start` to make sure everything is working as expected!
 
 
 ---
 ## Deliverables
-- **When an error is thrown within any `render` function of a main-content component (e.g. `Profile`, `Notifications`, `Devices`, `Changelog`):**
-  - the sidebar should still be visible, and only the 'main-content' should be replaced with the error view
+- **when an error is thrown in a component within the main-content section of `Main.jsx` (e.g. `Profile`, `Notifications`, `Devices`, `Changelog`):**
+  - an error view should display
+  - the sidebar should still be visible
   - the user should be able to navigate away from the error page using the sidebar (the error page should only take up the 'main-content' window of the application)
-  - the error view should display
-  - we want to report the client side error to our backend, so make use of the existing method in the `ServerAPI` class to simulate the relevant information being sent in a POST request. Simply calling the provided method is sufficient!
+  - we want to report the client side error to our backend, so make use of the existing method in the `ServerAPI` class to simulate the relevant information being sent in a POST request. Simply calling the provided method is sufficient - no need to make to make an actual HTTP request!
   - the url should reflect that a user is on the error page (e.g. `http://localhost:3000/error`)
+  - when the user reloads the browser window when on `/error` they should see the error screen after the reload
   - the user should be able to successfully 'navigate back' in their browsers (by clicking the back button, hitting backspace, etc.)
-  - **Test coverage should be provided for this new feature!**
-  - **bonus:** provide the user with the option to see the actual error and the stack trace on the error page
+  - **test coverage should be provided for this new feature!**
+  - **bonus:** provide the user with the option to see the actual error and the stack trace on the error page (unless the user has reloaded into the error screen using the browser's reload button. In this case you don't need to display the error and stack trace)
 
+## Hints
+  - The router should be responsible for the rendering of the error screen (there should be a route to the error screen)
+  - for the bonus: the history API allows passing state between routes
 
 ---
 ## FAQ
